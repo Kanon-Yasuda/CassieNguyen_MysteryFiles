@@ -1,3 +1,4 @@
+/* Index */
 body {
     margin: 0;
     height: 100vh;
@@ -8,11 +9,21 @@ body {
     color: white;
 }
 
-#SplashScreen {
+#StartScreen {
     text-align: center;
 }
 
-#StartButton {
+.StartButton {
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ResetLink {
+    margin-top: 15px;
+}
+
+.ResetButton {
     padding: 10px 25px;
     font-size: 16px;
     cursor: pointer;
