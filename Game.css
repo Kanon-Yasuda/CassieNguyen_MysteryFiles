@@ -45,6 +45,29 @@ body {
 
 /* Cases All */
 
+#CaseDescription,
+#Suspects,
+#Evidence,
+#Investigation,
+#SolveCase {
+    background-color: #354363;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin: 15px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#CaseDescription:hover,
+#Suspects:hover,
+#Evidence:hover,
+#Investigation:hover,
+#SolveCase:hover {
+    background-color: #60739e;
+    transition: 0.3s;
+}
+
 #Suspects summary {
     list-style: none;
     cursor: pointer;
