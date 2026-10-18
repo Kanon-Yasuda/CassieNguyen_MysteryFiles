@@ -4,7 +4,23 @@
 <title> Cassie Nguyen's Mystery File </title>
 </head>
 
+<link rel="stylesheet" href="som.css">
+
 <body>
+
+<div id="SplashScreen">
+<h1>Game Title</h1>
+<input id="StartButton" type="button" value="Start"/>
+</div>
+
+<canvas id="GameCanvas" style="display: none;">Game Stuff</canvas>
+
+<script>
+    $("#StartButton").click(function () {
+        $("#SplashScreen").hide();
+        $("#GameCanvas").show();
+    });
+</script>
 
 </body>
 
