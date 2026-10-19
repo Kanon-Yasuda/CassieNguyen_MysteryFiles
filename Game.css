@@ -173,6 +173,19 @@ body {
     }
 }
 
+#Evidence summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+#Evidence summary::-webkit-details-marker {
+    display: none;
+}
+
+#Evidence summary::marker {
+    content: "";
+}
+
 /* Case 1 */
 
 #Investigation summary {
