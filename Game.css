@@ -76,3 +76,37 @@ body {
 #Suspects summary::-webkit-details-marker {
     display: none;
 }
+
+.SuspectInfo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 85vw;
+    height: 80vh;
+    background-color: #5a3826;
+    border: 3px solid #cba778;
+    border-radius: 12px;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px #24170f;
+}
+
+.SuspectImage {
+    width: 220px;
+    max-width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.Dialogue {
+    background-color: #79513a;
+    border: 2px solid #cba778;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
