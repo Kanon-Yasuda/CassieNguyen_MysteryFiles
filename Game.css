@@ -81,6 +81,14 @@ body {
     margin-bottom: 10px;
 }
 
+#CaseFiles .StartButton {
+    transition: transform 0.3s ease;
+}
+
+#CaseFiles .StartButton:hover {
+    transform: translateY(-5px);
+}
+
 /* Cases All */
 
 #CaseDescription,
