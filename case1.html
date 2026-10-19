@@ -97,8 +97,6 @@
 
 
 <div id="Evidence">
-<h2>Evidence</h2>
-</div>
 
 <details>
 <summary><h2>Evidence</h2></summary>
@@ -165,24 +163,67 @@
 
 
 <div id="Investigation">
+
+<details>
+<summary>
 <h2>Investigation</h2>
+</summary>
+
+<div class="InvestigationContent">
+
+<h3>Who is the one lying?</h3>
+
+<p>Review the suspects' statements and evidence before choosing your answer.</p>
+
+<input type="radio" id="AliceAnswer" name="SuspectAnswer">
+<label for="AliceAnswer">Alice DeRoss</label>
+
+<br>
+
+<input type="radio" id="NortonAnswer" name="SuspectAnswer">
+<label for="NortonAnswer">Norton Campbell</label>
+
+<br>
+
+<input type="radio" id="OrpheusAnswer" name="SuspectAnswer">
+<label for="OrpheusAnswer">Orpheus Blanche</label>
+
+<br>
+
+<input type="radio" id="MellyAnswer" name="SuspectAnswer">
+<label for="MellyAnswer">Melly Plinius</label>
+
 </div>
+
+</details>
+
+</div>
+
+
+</div>
+
+
+
 
 <div id="SolveCase">
+
 <h2>Solve the Case</h2>
-</div>
 
-</div>
+<p>Select the person you believe is lying in the Investigation section.</p>
 
-
-<div id="Back">
-<a href="homepage.html">
-<button class="StartButton">Back</button>
+<a href="homepage.html" class="SolveButton">
+Solve Case
 </a>
+
+<p class="WrongAnswer">
+That is not the correct suspect. Try again!
+</p>
+
+</div>
 
 <div id="X">
 <a href="case1.html">
-<button class="StartButton">X</button>
+<button class="StartButton"> Use this button to close out of dialouge </button>
 </a>
 
 </body>

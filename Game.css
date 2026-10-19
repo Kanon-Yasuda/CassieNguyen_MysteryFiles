@@ -172,3 +172,53 @@ body {
         transform: translate(-50%, -50%) scale(1);
     }
 }
+
+/* Case 1 */
+
+#Investigation summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+#Investigation summary::-webkit-details-marker {
+    display: none;
+}
+
+#Investigation summary h2 {
+    margin: 0;
+}
+
+.InvestigationContent {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.InvestigationContent label {
+    cursor: pointer;
+}
+
+.SolveButton {
+    display: none;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin: 15px auto;
+    width: fit-content;
+}
+
+.WrongAnswer {
+    display: none;
+}
+
+
+body:has(#NortonAnswer:checked) .SolveButton {
+    display: block;
+}
+
+body:has(#AliceAnswer:checked) .WrongAnswer,
+body:has(#OrpheusAnswer:checked) .WrongAnswer,
+body:has(#MellyAnswer:checked) .WrongAnswer {
+    display: block;
+}
