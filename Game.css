@@ -186,6 +186,65 @@ body {
     content: "";
 }
 
+.ClueCard {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.ClueCard summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.ClueCard summary::-webkit-details-marker {
+    display: none;
+}
+
+.ClueCard summary::marker {
+    content: "";
+}
+
+.ClueCard summary h3 {
+    margin: 5px 0;
+}
+
+.ClueStatus {
+    font-size: 12px;
+}
+
+.ClueCard .ClueStatus::after {
+    content: "";
+}
+
+.ClueCard[open] .ClueStatus {
+    font-size: 0;
+}
+
+.ClueCard[open] .ClueStatus::after {
+    content: "Reviewed";
+    font-size: 12px;
+}
+
+.ClueContent {
+    padding-top: 10px;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.ClueContent table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.ClueContent th,
+.ClueContent td {
+    padding: 5px;
+    text-align: center;
+}
+
 /* Case 1 */
 
 #Investigation summary {
