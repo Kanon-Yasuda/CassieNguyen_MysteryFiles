@@ -245,8 +245,6 @@ body {
     text-align: center;
 }
 
-/* Case 1 */
-
 #Investigation summary {
     list-style: none;
     cursor: pointer;
@@ -284,7 +282,7 @@ body {
     display: none;
 }
 
-
+/* Case 1 */
 body:has(#NortonAnswer:checked) .SolveButton {
     display: block;
 }
@@ -292,5 +290,17 @@ body:has(#NortonAnswer:checked) .SolveButton {
 body:has(#AliceAnswer:checked) .WrongAnswer,
 body:has(#OrpheusAnswer:checked) .WrongAnswer,
 body:has(#MellyAnswer:checked) .WrongAnswer {
+    display: block;
+}
+
+/* Case 2 */
+
+body:has(#MariaAnswer:checked) .SolveButton {
+    display: block;
+}
+
+body:has(#ChristinaAnswer:checked) .WrongAnswer,
+body:has(#AbbyAnswer:checked) .WrongAnswer,
+body:has(#KatherineAnswer:checked) .WrongAnswer {
     display: block;
 }
