@@ -304,3 +304,16 @@ body:has(#AbbyAnswer:checked) .WrongAnswer,
 body:has(#KatherineAnswer:checked) .WrongAnswer {
     display: block;
 }
+
+/* Case 3 */
+
+
+body:has(#FelixAnswer:checked) .SolveButton {
+    display: block;
+}
+
+body:has(#LilyAnswer:checked) .WrongAnswer,
+body:has(#OliverAnswer:checked) .WrongAnswer,
+body:has(#EmmaAnswer:checked) .WrongAnswer {
+    display: block;
+}

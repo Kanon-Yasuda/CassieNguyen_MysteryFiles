@@ -14,34 +14,223 @@
 
 <div id="CaseDescription">
 <h2>Case Description</h2>
+
+<p>Mr. Strawberry, a prized cat, has gone missing from the Cat Cabby Showcase. He was a strange-looking cat who looked just like a strawberry, making him extremely rare and worth a lot of money. There were many people visiting the Cat Cabby Studio that day, so no one knows who could have taken him. After his disappearance was discovered, the doors were sealed to prevent anyone from leaving. Everyone who was inside the building when Mr. Strawberry disappeared is still there. Now it is up to you to find out who stole him.</p>
+
 </div>
 
 <div id="Suspects">
 
 <details>
-<summary> <h2>Suspects</h2> </summary>
+<summary><h2>Suspects</h2></summary>
+
+<div class="SuspectCard">
+<details>
+<summary><h3>Lily</h3></summary>
+
+<div class="SuspectInfo">
+
+<h2>Lily</h2>
+<img src="lily.png" alt="Lily" class="SuspectImage">
+
+<div class="Dialogue">
+"I was the one taking care of Mr. Strawberry before the showcase started. He was such a sweet little cat, even though he looked a bit strange. I made sure he had his food and water before I left him in the display room. When I came back, he was gone! I really hope we can find him soon. He must be so scared right now..."
+</div>
+
+</div>
+
+</details>
+</div>
+
+<div class="SuspectCard">
+<details>
+<summary><h3>Oliver</h3></summary>
+
+<div class="SuspectInfo">
+
+<h2>Oliver</h2>
+<img src="oliver.png" alt="Oliver" class="SuspectImage">
+
+<div class="Dialogue">
+"I came here because I heard there was a cat that looked like a strawberry. I must admit, he was quite a fascinating little creature. I even offered to buy him, but the owner refused. What a shame. Still, I have plenty of rare animals at home, so I don't see why I would need to steal another one."
+</div>
+
+</div>
+
+</details>
+</div>
+
+
+<div class="SuspectCard">
+<details>
+<summary><h3>Emma</h3></summary>
+
+<div class="SuspectInfo">
+
+<h2>Emma</h2>
+<img src="emma.png" alt="Emma" class="SuspectImage">
+
+<div class="Dialogue">
+"I was just here to take pictures for the showcase. There were so many cute cats that I honestly didn't know which one to photograph first! I did take a few pictures of Mr. Strawberry, but I left the display room when the staff told everyone to prepare for the next event. I was in the photography room editing my pictures when they announced he was missing."
+</div>
+
+</div>
+
+</details>
+</div>
+
+<div class="SuspectCard">
+<details>
+<summary><h3>Felix</h3></summary>
+
+<div class="SuspectInfo">
+
+<h2>Felix</h2>
+<img src="felix.png" alt="Felix" class="SuspectImage">
+
+<div class="Dialogue">
+"Listen, I don't know anything about the missing cat. I was busy moving supplies around the studio all afternoon. I did go into the display room earlier, but that was only to bring some decorations. Besides, I never even touched Mr. Strawberry. I don't know why everyone keeps asking me about him."
+</div>
 </div>
 </details>
 
-<div id="Evidence">
-<h2>Evidence</h2>
 </div>
 
-<div id="Investigation">
-<h2>Investigation</h2>
+</details>
+
 </div>
+
+
+<div id="Evidence">
+<details>
+<summary><h2>Evidence</h2></summary>
+
+
+<div class="EvidenceCard">
+
+<details class="ClueCard">
+
+<summary>
+<h3>Clue 1: Showcase Records</h3>
+<span class="ClueStatus">Not Reviewed</span>
+</summary>
+
+<div class="ClueContent">
+
+<p>Mr. Strawberry was last seen inside his display room shortly before the showcase began. Lily had finished feeding him, and Emma had taken several photographs of him. The staff later discovered that his display was empty, but the door showed no signs of being forced open.</p>
+
+</div>
+
+</details>
+
+</div>
+
+
+<div class="EvidenceCard">
+
+<details class="ClueCard">
+
+<summary>
+<h3>Clue 2: Security Records</h3>
+<span class="ClueStatus">Not Reviewed</span>
+</summary>
+
+<div class="ClueContent">
+
+<p>The studio's security cameras showed Oliver speaking with the owner near the entrance. Emma was seen entering the photography room, while Lily was helping another staff member prepare the other cats. Felix was recorded pushing a large supply cart out of the display room shortly before Mr. Strawberry disappeared.</p>
+
+</div>
+
+</details>
+
+</div>
+
+
+<div class="EvidenceCard">
+
+<details class="ClueCard">
+
+<summary>
+<h3>Clue 3: Supply Room Records</h3>
+<span class="ClueStatus">Not Reviewed</span>
+</summary>
+
+<div class="ClueContent">
+
+<p>During the investigation, the staff discovered a small amount of strawberry-colored fur inside an empty supply box. The box had several air holes and was found on the same cart Felix had been using. According to the studio records, Felix was the only person assigned to move that cart during the showcase.</p>
+
+</div>
+
+</details>
+
+</div>
+
+</details>
+
+</div>
+
+
+
+<div id="Investigation">
+<details>
+<summary>
+<h2>Investigation</h2>
+</summary>
+
+<div class="InvestigationContent">
+
+<h3>Who stole Mr. Strawberry?</h3>
+
+<p>Review the suspects' statements and evidence before choosing your answer.</p>
+
+<input type="radio" id="LilyAnswer" name="SuspectAnswer">
+<label for="LilyAnswer">Lily</label>
+
+<br>
+
+<input type="radio" id="OliverAnswer" name="SuspectAnswer">
+<label for="OliverAnswer">Oliver</label>
+
+<br>
+
+<input type="radio" id="EmmaAnswer" name="SuspectAnswer">
+<label for="EmmaAnswer">Emma</label>
+
+<br>
+
+<input type="radio" id="FelixAnswer" name="SuspectAnswer">
+<label for="FelixAnswer">Felix</label>
+
+</div>
+
+</details>
+
+</div>
+
 
 <div id="SolveCase">
 <h2>Solve the Case</h2>
+
+<p>Select the person you believe stole Mr. Strawberry in the Investigation section.</p>
+
+<a href="homepage.html" class="SolveButton">
+Solve Case
+</a>
+
+<p class="WrongAnswer">
+That is not the correct suspect. Try again!
+</p>
+
 </div>
 
 </div>
 
 
 <div id="Back">
-<a href="homepage.html">
-<button class="StartButton">Back</button>
+<a href="case3.html">
+<button class="StartButton">Use this button to close out of dialogue</button>
 </a>
+</div>
 
 </body>
 
